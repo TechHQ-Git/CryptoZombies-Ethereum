@@ -3,6 +3,10 @@ pragma solidity ^0.4.19;
 import "./ownable.sol";
 import "./safemath.sol";
 
+/**
+ * @title ZombieFactory
+ * @dev Data types, variables and functions to create and store Zombies
+ */
 contract ZombieFactory is Ownable {
 
   using SafeMath for uint256;
